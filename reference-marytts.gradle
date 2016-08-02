@@ -21,6 +21,7 @@ project(':reference-marytts') { proj ->
 
 project(':reference-marytts:marytts-common') {
     dependencies {
+	    compile 'commons-lang:commons-lang:2.6'
         compile 'commons-io:commons-io:2.0.1'
         compile 'log4j:log4j:1.2.16'
         testCompile 'junit:junit:4.11'
